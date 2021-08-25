@@ -92,14 +92,13 @@ switch(true){
 */
 // TWO
 
-let userInput = prompt('Enter the month');
-let month = userInput.toLowerCase;
+let month = prompt('Enter the month');
 let autumn = 'september october november';
 let winter = 'december january february'
 let spring = 'march april may'
 let summer = 'june july august'
-
-/*switch(true) {
+/*
+switch(true) {
     case autumn.includes(month):
         console.log("Season is Autumn")
         break;
@@ -112,8 +111,9 @@ let summer = 'june july august'
     case summer.includes(month):
         console.log("Season is Summer")
         break;
-}*/
-
+}
+*/
+/*
 if (autumn.includes(month)){
     console.log("Season is Autumn")
 }
@@ -126,3 +126,6 @@ else if (spring.includes(month)){
 else {
     console.log("Season is summer")
 }
+*/
+
+
