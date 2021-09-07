@@ -66,3 +66,7 @@ const users = {
       points: 40
     }
   }
+
+  const userArrays =  Object.keys(users)
+
+  console.log(userArrays[1].skills)
